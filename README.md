@@ -22,12 +22,13 @@
 ##### Клонирование репозитория
 Склонируйте репозиторий на локальную машину:
 ```bash
-git clone https://github.com/NikolayRudaov//BewiseTest.git
+git clone https://github.com/NikolayRudakov/BewiseTest.git
 ```
 
 Предполагается наличие рабочей стандартной установки Docker на вашей машине.
 Выполните из корня проекта:
 ```bash
+cd BewiseTest
 docker compose up
 ```
 Для инициализации базы данных из контейнера Python запустите:
