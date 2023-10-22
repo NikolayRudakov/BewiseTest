@@ -22,7 +22,7 @@
 ##### Клонирование репозитория
 Склонируйте репозиторий на локальную машину:
 ```bash
-git clone https://github.com/NikolayRudaov//BewiseTest.git
+git clone https://github.com/NikolayRudakov/BewiseTest.git
 ```
 
 Предполагается наличие рабочей стандартной установки Docker на вашей машине.
