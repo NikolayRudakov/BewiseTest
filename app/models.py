@@ -18,7 +18,7 @@ class Jserv(db.Model):
         return dict(
             id=self.id,
             id_ext=self.id_ext,
-            question_tex=self.question_text,
+            question_text=self.question_text,
             answer=self.answer,
             timestamp=self.timestamp.strftime("%d.%m.%Y %H:%M:%S"),
         )
