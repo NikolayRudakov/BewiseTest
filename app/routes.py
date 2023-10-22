@@ -46,5 +46,7 @@ def init_routes(app):
                 db.session.add(jserv)
                 db.session.commit()
             q_num -= 1
-
-        return json.dumps(replay.to_dict()), 201
+        if replay = {}:
+            return replay, 201
+        else:
+            return json.dumps(replay.to_dict()), 201
